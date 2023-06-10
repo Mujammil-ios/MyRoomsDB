@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon src/server.ts",
+    "start": "node src/server.ts",
     "tsc": "tsc -p"
   },
   "dependencies": {
