@@ -1,0 +1,150 @@
+
+[96mRequest: [93mPOST [97m/api/v1/user/login [90mat [37mFri Jun 09 2023 20:28:30 GMT-0600, [90mIP: [37m::1[0m, [90mUser Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"email": "visrma53@gmail.com",[0m
+[97m	"password": "fdfdfsg"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"ResponceCode": 1,[0m
+[97m	"ResponceMessage": "password does not match",[0m
+[97m	"ResponceData": [][0m
+[97m}[0m
+[96mResponse: [32m200 [37m303.550 ms 
+
+[96mRequest: [93mGET [97m/api/v1/room/get_room_type [90mat [37mFri Jun 09 2023 20:28:35 GMT-0600, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.32.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"ResponceCode": 0,[0m
+[97m	"ResponceMessage": "Get All Details Room Type",[0m
+[97m	"ResponceData": [[0m
+[97m		{[0m
+[97m			"image": "undefined2023-03-26-House.png",[0m
+[97m			"id": 1,[0m
+[97m			"room_type_name": "House",[0m
+[97m			"order": 0,[0m
+[97m			"createdAt": "2023-03-26T12:30:03.000Z",[0m
+[97m			"updatedAt": "2023-03-26T12:30:03.000Z"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"image": "undefined2023-03-26-Apartment.png",[0m
+[97m			"id": 2,[0m
+[97m			"room_type_name": "Apartment",[0m
+[97m			"order": 1,[0m
+[97m			"createdAt": "2023-03-26T12:30:03.000Z",[0m
+[97m			"updatedAt": "2023-03-26T12:30:03.000Z"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"image": "undefined2023-03-26-Land.png",[0m
+[97m			"id": 3,[0m
+[97m			"room_type_name": "Land",[0m
+[97m			"order": 2,[0m
+[97m			"createdAt": "2023-03-26T12:30:03.000Z",[0m
+[97m			"updatedAt": "2023-03-26T12:30:03.000Z"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"image": "undefined2023-03-26-TownHouse.png",[0m
+[97m			"id": 4,[0m
+[97m			"room_type_name": "Town House",[0m
+[97m			"order": 3,[0m
+[97m			"createdAt": "2023-03-26T12:30:03.000Z",[0m
+[97m			"updatedAt": "2023-03-26T12:30:03.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m14.103 ms 
+
+[96mRequest: [93mGET [97m/api/v1/room/get_room_details [90mat [37mFri Jun 09 2023 21:07:10 GMT-0600, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.32.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"ResponceCode": 0,[0m
+[97m	"ResponceMessage": "Get All Details Room Type",[0m
+[97m	"ResponceData": [[0m
+[97m		{[0m
+[97m			"id": 1,[0m
+[97m			"full_name": "vishal sharma",[0m
+[97m			"email": "vishal2@mailinator.com",[0m
+[97m			"phone_number": "9106005308",[0m
+[97m			"password": "$2b$12$.IGUFv9ej0f3PeEruwHil.6EUyk.k9Aoregu3eW.PYFQZK8lP8nGu",[0m
+[97m			"role_id": 1,[0m
+[97m			"latitudes": "22.215500",[0m
+[97m			"longitudes": "29.999999",[0m
+[97m			"createdAt": "2023-03-25T10:04:39.000Z",[0m
+[97m			"updatedAt": "2023-03-25T10:04:39.000Z",[0m
+[97m			"room_details": [[0m
+[97m				{[0m
+[97m					"room_cover_image": "undefinedroom_cover_image-1681630904743.png",[0m
+[97m					"id": 10,[0m
+[97m					"user_id": 1,[0m
+[97m					"room_type_id": 3,[0m
+[97m					"address_1": "unn, surat",[0m
+[97m					"address_2": "bestan",[0m
+[97m					"bethroom": 2,[0m
+[97m					"room": 4,[0m
+[97m					"about": "about room service ",[0m
+[97m					"monthly_amount": 1520,[0m
+[97m					"deposite_amount": 10000,[0m
+[97m					"createdAt": "2023-04-16T07:41:44.000Z",[0m
+[97m					"updatedAt": "2023-04-16T07:41:44.000Z"[0m
+[97m				},[0m
+[97m				{[0m
+[97m					"room_cover_image": "undefinedroom_cover_image-1681630971601.png",[0m
+[97m					"id": 11,[0m
+[97m					"[0m
+[97m...[0m
+[96mResponse: [32m200 [37m26.665 ms 
+
+[96mRequest: [93mGET [97m/api/v1/room/get_room_type [90mat [37mFri Jun 09 2023 21:07:15 GMT-0600, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.32.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"ResponceCode": 0,[0m
+[97m	"ResponceMessage": "Get All Details Room Type",[0m
+[97m	"ResponceData": [[0m
+[97m		{[0m
+[97m			"image": "undefined2023-03-26-House.png",[0m
+[97m			"id": 1,[0m
+[97m			"room_type_name": "House",[0m
+[97m			"order": 0,[0m
+[97m			"createdAt": "2023-03-26T12:30:03.000Z",[0m
+[97m			"updatedAt": "2023-03-26T12:30:03.000Z"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"image": "undefined2023-03-26-Apartment.png",[0m
+[97m			"id": 2,[0m
+[97m			"room_type_name": "Apartment",[0m
+[97m			"order": 1,[0m
+[97m			"createdAt": "2023-03-26T12:30:03.000Z",[0m
+[97m			"updatedAt": "2023-03-26T12:30:03.000Z"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"image": "undefined2023-03-26-Land.png",[0m
+[97m			"id": 3,[0m
+[97m			"room_type_name": "Land",[0m
+[97m			"order": 2,[0m
+[97m			"createdAt": "2023-03-26T12:30:03.000Z",[0m
+[97m			"updatedAt": "2023-03-26T12:30:03.000Z"[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"image": "undefined2023-03-26-TownHouse.png",[0m
+[97m			"id": 4,[0m
+[97m			"room_type_name": "Town House",[0m
+[97m			"order": 3,[0m
+[97m			"createdAt": "2023-03-26T12:30:03.000Z",[0m
+[97m			"updatedAt": "2023-03-26T12:30:03.000Z"[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m9.226 ms 
+
+[96mRequest: [93mGET [97m/api/v1/document/get_document_type [90mat [37mFri Jun 09 2023 21:07:24 GMT-0600, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.32.2[0m
+[96mResponse: [33m404 [37m1.319 ms 
+
+[96mRequest: [93mGET [97m/api/v1/document/get_document_type [90mat [37mFri Jun 09 2023 21:07:26 GMT-0600, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.32.2[0m
+[96mResponse: [33m404 [37m0.362 ms 
+
+[96mRequest: [93mGET [97m/api/v1/document/get_document_type [90mat [37mFri Jun 09 2023 21:07:27 GMT-0600, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.32.2[0m
+[96mResponse: [33m404 [37m0.210 ms 
+
+[96mRequest: [93mGET [97m/api/v1/document/get_document_type [90mat [37mFri Jun 09 2023 21:07:28 GMT-0600, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.32.2[0m
+[96mResponse: [33m404 [37m0.219 ms 
